@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    height: 6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid black;
+
+}
+
+.totalx{
+    width: 15rem;
+    height: 5rem;
+    
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.totalsigno{
+    width: 15rem;
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,5 @@
+function actualizarLocalStorange(){
+
+}
+
+export {actualizarLocalStorange};
