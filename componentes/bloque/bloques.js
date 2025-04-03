@@ -1,5 +1,4 @@
 import { bloque } from "./itemBloque.js";
-import { eliminarBloque } from "./funcionesBloque.js";
 function cargarBloques(){
     let bloques = document.createElement('section');
     bloques.className = "bloques";

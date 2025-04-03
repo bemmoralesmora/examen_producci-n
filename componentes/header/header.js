@@ -11,7 +11,7 @@ function cargarMenu (){
     header.appendChild(totalx);
 
     let resultado = document.createElement('p');
-    resultado.textContent = " 0";
+    resultado.textContent = localStorage.getItem('cruces') || "0";
     totalx.appendChild(resultado)
 
     let totalsigno = document.createElement('div');
@@ -20,10 +20,10 @@ function cargarMenu (){
     header.appendChild(totalsigno);
 
     let resultado2 = document.createElement('p');
-    resultado2.textContent = " 0";
+    resultado2.textContent = localStorage.getItem('checks') || "0";
     totalsigno.appendChild(resultado2)
 
     return header;
 }
 
-export {cargarMenu};
+export { cargarMenu };

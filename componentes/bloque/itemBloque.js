@@ -1,6 +1,6 @@
+import { agregarCheck, agregarCruz } from "../bloque/funcionesBloque.js";
 
-function bloque (){
-
+function bloque() {
     let itembloque = document.createElement('div');
     itembloque.className = "itembloque";
 
@@ -17,24 +17,20 @@ function bloque (){
     botonx_c.textContent = "x"
 
     botonx_c.addEventListener('click', () => {
-        alert("hola")
+        agregarCruz(itembloque);
     });
     contenedor_b.appendChild(botonx_c);
     
-
     let botonc_c = document.createElement('button');
     botonc_c.className = "botonc-c";
     botonc_c.textContent = "/"
     botonc_c.addEventListener('click', () => {
-        
+        agregarCheck(itembloque);
     });
 
     contenedor_b.appendChild(botonc_c);
 
     return itembloque;
-
-    
-
 }
 
-export {bloque};
+export { bloque };

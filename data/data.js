@@ -1,15 +1,14 @@
-function datacruz(){
-    let lista1 = [
+let lista1 = [];
+let lista2 = [];
 
-    ]
+function datacruz(){
+    return lista1;
 }
 
-export {datacruz};
+export { datacruz };
 
 function datacheck(){
-    let lista2 = [
-        
-    ]
+    return lista2;
 }
 
-export {datacheck};
+export { datacheck };
